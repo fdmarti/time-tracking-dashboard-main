@@ -26,8 +26,7 @@
 
 	const props = defineProps<Props>();
 	const state = inject<Provide>('state');
-	//@ts-ignore
-	const { currentState } = state;
+	const currentState = state?.currentState;
 </script>
 
 <template>
