@@ -7,7 +7,7 @@
 <template>
 	<div class="card-user">
 		<section class="user-info">
-			<img class="user-img" src="images/image-jeremy.png" alt="user image" />
+			<img class="user-img" src="/images/image-jeremy.png" alt="user image" />
 			<section class="text-user">
 				<span class="report-us">Report for</span>
 				<span class="user-name">Jeremy Robson</span>

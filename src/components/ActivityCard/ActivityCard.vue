@@ -33,14 +33,14 @@
 	<div class="activity-card">
 		<div class="backgoround-banner" :class="props.activity.title.toLowerCase()">
 			<img
-				:src="`images/${props.activity.imageName}.svg`"
+				:src="`/images/${props.activity.imageName}.svg`"
 				alt=" icon default in card activity"
 			/>
 		</div>
 		<section class="content-card">
 			<section class="title-card">
 				<span class="title"> {{ props.activity.title }}</span>
-				<img src="images/icon-ellipsis.svg" alt=" dot options" />
+				<img src="/images/icon-ellipsis.svg" alt=" dot options" />
 			</section>
 			<section class="time-current-block">
 				<span v-if="currentState === 'daily'">
