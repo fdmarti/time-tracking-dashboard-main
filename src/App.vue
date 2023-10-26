@@ -7,7 +7,7 @@
 	const currentState = ref<string>('weekly');
 
 	const getActivitiesByUser = async () => {
-		const result = await fetch('../public/db/data.json');
+		const result = await fetch('db/data.json');
 		activities.value = await result.json();
 	};
 
