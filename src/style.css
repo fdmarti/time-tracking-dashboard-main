@@ -28,8 +28,38 @@ body {
 	color: var(--white);
 }
 
-@media (max-width:1200px) {
+.dashboard {
+	margin: 200px auto 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 4rem;
+	position: relative;
+}
+
+.activities {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	row-gap: 3rem;
+	column-gap: 3rem;
+	position: relative;
+	top: 20px;
+}
+
+@media (max-width: 1200px) {
 	#app {
 		padding: 0 20px;
+	}
+
+	.dashboard {
+		flex-direction: column;
+		margin: 60px auto;
+	}
+
+	.activities {
+		margin-top: 60px;
+		grid-template-columns: 1fr;
+		gap: 4rem;
 	}
 }

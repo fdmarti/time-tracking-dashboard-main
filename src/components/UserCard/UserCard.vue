@@ -1,7 +1,6 @@
 <script setup lang="ts">
 	import './UserCard.css';
 	import OptionTime from '../shared/OptionTime/OptionTime.vue';
-
 </script>
 
 <template>
@@ -15,7 +14,7 @@
 		</section>
 		<section class="user-time">
 			<OptionTime text="Daily" />
-			<OptionTime text="Weekly"/>
+			<OptionTime text="Weekly" />
 			<OptionTime text="Monthly" />
 		</section>
 	</div>

@@ -1,4 +1,4 @@
 export interface Provide {
 	currentState?: string;
-	updateDashboard: (a : string) => void;
+	updateDashboard: (a: string) => void;
 }
