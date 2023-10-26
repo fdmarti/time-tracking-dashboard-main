@@ -1,0 +1,13 @@
+.option-time {
+	color: var(--desaturatedBlue);
+	font-weight: 500;
+}
+
+.option-time:hover {
+	cursor: pointer;
+	color: var(--white);
+}
+
+.active {
+	color: var(--white);
+}

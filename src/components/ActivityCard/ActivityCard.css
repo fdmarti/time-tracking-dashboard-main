@@ -1,0 +1,82 @@
+.activity-card {
+	background-color: var(--darkBlue);
+	border-radius: 10px;
+	position: relative;
+	width: 280px;
+}
+
+.backgoround-banner {
+	background-color: var(--limeGreen);
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	width: 100%;
+	top: -40px;
+	z-index: -1;
+}
+
+.content-card {
+	padding: 30px;
+}
+
+.title-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.title {
+	font-weight: 500;
+}
+
+.title-card img:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.time-current-block span {
+	font-size: 52px;
+	font-weight: 300;
+}
+
+.time-previous-block {
+	margin-top: 10px;
+}
+
+.time-previous-block span {
+	font-size: 14px;
+	color: var(--paleBlue);
+}
+
+.work {
+	background-color: var(--lightOrange);
+}
+
+.play {
+	background-color: var(--softBlue);
+}
+
+.study {
+	background-color: var(--lightRed);
+}
+
+.exercise {
+	background-color: var(--limeGreen);
+}
+
+.social {
+	background-color: var(--violet);
+}
+
+.self {
+	background-color: var(--softOrange);
+}
+
+@media (max-width: 1200px) {
+	.time-current {
+		font-size: 40px;
+	}
+}

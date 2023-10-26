@@ -1,0 +1,74 @@
+.card-user {
+	background-color: var(--darkBlue);
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.user-info {
+	background-color: var(--blue);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text-user {
+	flex-direction: column;
+	display: flex;
+}
+
+.user-img {
+	width: 70px;
+	border: solid 2px var(--white);
+	border-radius: 100px;
+	margin-bottom: 40px;
+}
+
+.user-info .report-us {
+	color: var(--paleBlue);
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.user-name {
+	color: var(--white);
+	font-weight: 300;
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.user-time {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	padding: 25px;
+}
+
+@media (max-width: 1200px) {
+	.card-user {
+		max-width: 300px;
+	}
+
+	.user-info {
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.user-name {
+		margin: 0;
+		font-size: 22px;
+	}
+
+	.user-img {
+		margin: 0;
+	}
+
+	.user-time {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
